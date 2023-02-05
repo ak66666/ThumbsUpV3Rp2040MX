@@ -1140,24 +1140,24 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Male J25
 U 1 1 636DA3F2
-P 12450 12250
-F 0 "J25" H 12250 12100 50  0000 L CNN
-F 1 "Conn_01x04_Male" V 12400 11950 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12450 12250 50  0001 C CNN
-F 3 "~" H 12450 12250 50  0001 C CNN
-	1    12450 12250
-	-1   0    0    1   
+P 12450 12150
+F 0 "J25" H 12250 12000 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 12400 11850 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12450 12150 50  0001 C CNN
+F 3 "~" H 12450 12150 50  0001 C CNN
+	1    12450 12150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J29
 U 1 1 636DA3F8
-P 13000 12250
-F 0 "J29" H 13100 12200 50  0000 L CNN
-F 1 "Conn_01x04_Female" V 13050 11900 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 13000 12250 50  0001 C CNN
-F 3 "~" H 13000 12250 50  0001 C CNN
-	1    13000 12250
-	-1   0    0    1   
+P 13000 12150
+F 0 "J29" H 13100 12100 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 13050 11800 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 13000 12150 50  0001 C CNN
+F 3 "~" H 13000 12150 50  0001 C CNN
+	1    13000 12150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J27
@@ -2170,10 +2170,6 @@ F 3 "~" H 19250 13700 50  0001 C CNN
 	1    19250 13700
 	0    1    1    0   
 $EndComp
-NoConn ~ 19050 13350
-NoConn ~ 19150 13350
-NoConn ~ 19250 13350
-NoConn ~ 19350 13350
 NoConn ~ 19050 13900
 NoConn ~ 19150 13900
 NoConn ~ 19250 13900
@@ -2200,9 +2196,6 @@ F 3 "~" H 19250 12850 50  0001 C CNN
 	1    19250 12850
 	0    1    1    0   
 $EndComp
-NoConn ~ 19150 12500
-NoConn ~ 19250 12500
-NoConn ~ 19350 12500
 NoConn ~ 19050 13050
 NoConn ~ 19150 13050
 NoConn ~ 19250 13050
@@ -2931,39 +2924,39 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0143
 U 1 1 63C338F1
-P 14150 10100
-F 0 "#PWR0143" H 14150 9850 50  0001 C CNN
-F 1 "GND" H 14155 9927 50  0000 C CNN
-F 2 "" H 14150 10100 50  0001 C CNN
-F 3 "" H 14150 10100 50  0001 C CNN
-	1    14150 10100
+P 14150 10500
+F 0 "#PWR0143" H 14150 10250 50  0001 C CNN
+F 1 "GND" H 14155 10327 50  0000 C CNN
+F 2 "" H 14150 10500 50  0001 C CNN
+F 3 "" H 14150 10500 50  0001 C CNN
+	1    14150 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L TL1016AAF220QG:TL1016AAF220QG RUN2
 U 1 1 63C33927
-P 14350 9300
-F 0 "RUN2" V 14750 9550 50  0000 L CNN
-F 1 "TL1016AAF220QG" V 14900 9550 50  0000 L CNN
-F 2 "TL1016AAF220QG:TL1016AAF220QG" H 15000 9400 50  0001 L CNN
-F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 15000 9300 50  0001 L CNN
-F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 15000 9200 50  0001 L CNN "Description"
-F 5 "1.35" H 15000 9100 50  0001 L CNN "Height"
-F 6 "E-Switch" H 15000 9000 50  0001 L CNN "Manufacturer_Name"
-F 7 "TL1016AAF220QG" H 15000 8900 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "612-TL1016AAF220QG" H 15000 8800 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 15000 8700 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 15000 8600 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 15000 8500 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 15000 8400 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 15000 8300 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    14350 9300
+P 14350 9700
+F 0 "RUN2" V 14750 9950 50  0000 L CNN
+F 1 "TL1016AAF220QG" V 14900 9950 50  0000 L CNN
+F 2 "TL1016AAF220QG:TL1016AAF220QG" H 15000 9800 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 15000 9700 50  0001 L CNN
+F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 15000 9600 50  0001 L CNN "Description"
+F 5 "1.35" H 15000 9500 50  0001 L CNN "Height"
+F 6 "E-Switch" H 15000 9400 50  0001 L CNN "Manufacturer_Name"
+F 7 "TL1016AAF220QG" H 15000 9300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "612-TL1016AAF220QG" H 15000 9200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 15000 9100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 15000 9000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 15000 8900 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 15000 8800 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 15000 8700 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    14350 9700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14350 9300 14400 9300
+	14350 9700 14400 9700
 Wire Wire Line
-	14500 9300 14500 10100
+	14500 9700 14500 10500
 $Comp
 L TL1016AAF220QG:TL1016AAF220QG BOOTSEL2
 U 1 1 63C3393B
@@ -3611,24 +3604,24 @@ Text GLabel 12550 7250 0    50   Input ~ 0
 K_O
 Text GLabel 12550 7350 0    50   Input ~ 0
 K_I
-Text GLabel 12550 7450 0    50   Input ~ 0
-K_H
 Text GLabel 12550 7550 0    50   Input ~ 0
+K_H
+Text GLabel 12550 7450 0    50   Input ~ 0
 K_Y
 Text GLabel 12550 7650 0    50   Input ~ 0
 K_N
-Text GLabel 12550 7750 0    50   Input ~ 0
-K_M
 Text GLabel 12550 7850 0    50   Input ~ 0
-K_J
+K_M
 Text GLabel 12550 8050 0    50   Input ~ 0
+K_J
+Text GLabel 12550 7750 0    50   Input ~ 0
 K_U
 Wire Wire Line
-	14050 10100 14150 10100
+	14050 10500 14150 10500
 Wire Wire Line
-	14050 9300 14250 9300
+	14050 9700 14250 9700
 Wire Wire Line
-	14050 10100 14050 9300
+	14050 10500 14050 9700
 Wire Wire Line
 	3650 9200 3650 9300
 Wire Wire Line
@@ -3644,19 +3637,17 @@ Wire Wire Line
 Wire Wire Line
 	4050 10150 4200 10150
 Wire Wire Line
-	13950 9150 13950 9250
+	13950 9650 14400 9650
 Wire Wire Line
-	13950 9250 14400 9250
+	14400 9650 14400 9700
+Connection ~ 14400 9700
 Wire Wire Line
-	14400 9250 14400 9300
-Connection ~ 14400 9300
+	14400 9700 14500 9700
+Connection ~ 14150 10500
 Wire Wire Line
-	14400 9300 14500 9300
-Connection ~ 14150 10100
+	14150 10500 14250 10500
 Wire Wire Line
-	14150 10100 14250 10100
-Wire Wire Line
-	14350 10100 14500 10100
+	14350 10500 14500 10500
 Text GLabel 4250 7200 2    50   Input ~ 0
 K_LSFT
 Text GLabel 4250 7300 2    50   Input ~ 0
@@ -4149,4 +4140,47 @@ Text GLabel 12250 12150 0    50   Input ~ 0
 K_0
 Text GLabel 12250 12050 0    50   Input ~ 0
 K_DEL
+Text GLabel 12550 8150 0    50   Input ~ 0
+K_6
+Text GLabel 12550 8250 0    50   Input ~ 0
+K_DEL
+Text GLabel 12550 8350 0    50   Input ~ 0
+K_0
+Wire Wire Line
+	13950 9150 13950 9650
+Text GLabel 14050 9150 3    50   Input ~ 0
+K_9
+Text GLabel 14150 9150 3    50   Input ~ 0
+K_8
+Text GLabel 14550 7750 2    50   Input ~ 0
+K_7
+Wire Wire Line
+	19050 13350 19150 13350
+Connection ~ 19150 13350
+Wire Wire Line
+	19150 13350 19250 13350
+Connection ~ 19250 13350
+Wire Wire Line
+	19250 13350 19350 13350
+$Comp
+L power:GND #PWR0159
+U 1 1 6417F56E
+P 19050 13350
+F 0 "#PWR0159" H 19050 13100 50  0001 C CNN
+F 1 "GND" H 19055 13177 50  0000 C CNN
+F 2 "" H 19050 13350 50  0001 C CNN
+F 3 "" H 19050 13350 50  0001 C CNN
+	1    19050 13350
+	-1   0    0    1   
+$EndComp
+Connection ~ 19050 13350
+Wire Wire Line
+	19350 12500 19250 12500
+Connection ~ 19050 12500
+Connection ~ 19150 12500
+Wire Wire Line
+	19150 12500 19050 12500
+Connection ~ 19250 12500
+Wire Wire Line
+	19250 12500 19150 12500
 $EndSCHEMATC

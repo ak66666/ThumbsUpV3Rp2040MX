@@ -3711,13 +3711,13 @@ Text GLabel 13050 9150 3    50   Input ~ 0
 K_DOT
 Text GLabel 13150 9150 3    50   Input ~ 0
 K_COMM
-Text GLabel 2250 7500 0    50   Input ~ 0
-K_LCTL
-Text GLabel 2250 7600 0    50   Input ~ 0
-K_Z
-Text GLabel 2250 7700 0    50   Input ~ 0
-K_X
 Text GLabel 2250 7800 0    50   Input ~ 0
+K_LCTL
+Text GLabel 2250 7700 0    50   Input ~ 0
+K_Z
+Text GLabel 2250 7600 0    50   Input ~ 0
+K_X
+Text GLabel 2250 7500 0    50   Input ~ 0
 K_C
 $Comp
 L Device:R R17
@@ -4192,10 +4192,10 @@ Connection ~ 14500 15700
 Wire Wire Line
 	14500 15700 14500 15800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0160
 U 1 1 642F3305
 P 14500 15800
-F 0 "#PWR?" H 14500 15550 50  0001 C CNN
+F 0 "#PWR0160" H 14500 15550 50  0001 C CNN
 F 1 "GND" H 14505 15627 50  0000 C CNN
 F 2 "" H 14500 15800 50  0001 C CNN
 F 3 "" H 14500 15800 50  0001 C CNN
@@ -4203,4 +4203,6 @@ F 3 "" H 14500 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 14500 15800
+Text GLabel 5600 15050 2    50   Input ~ 0
+K_WIN
 $EndSCHEMATC

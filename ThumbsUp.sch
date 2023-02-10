@@ -2203,33 +2203,33 @@ NoConn ~ 19350 13050
 $Comp
 L Connector:Conn_01x04_Female J17
 U 1 1 63ADD1E9
-P 18200 13550
-F 0 "J17" V 18046 13698 50  0000 L CNN
-F 1 "Raiser_Female" V 18137 13698 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18200 13550 50  0001 C CNN
-F 3 "~" H 18200 13550 50  0001 C CNN
-	1    18200 13550
+P 18100 13450
+F 0 "J17" V 17946 13598 50  0000 L CNN
+F 1 "Raiser_Female" V 18037 13598 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18100 13450 50  0001 C CNN
+F 3 "~" H 18100 13450 50  0001 C CNN
+	1    18100 13450
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J18
 U 1 1 63ADD1EF
-P 18200 13700
-F 0 "J18" V 18262 13844 50  0000 L CNN
-F 1 "Raiser_Male" V 18353 13844 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18200 13700 50  0001 C CNN
-F 3 "~" H 18200 13700 50  0001 C CNN
-	1    18200 13700
+P 18100 13600
+F 0 "J18" V 18162 13744 50  0000 L CNN
+F 1 "Raiser_Male" V 18253 13744 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18100 13600 50  0001 C CNN
+F 3 "~" H 18100 13600 50  0001 C CNN
+	1    18100 13600
 	0    1    1    0   
 $EndComp
-NoConn ~ 18000 13350
-NoConn ~ 18100 13350
-NoConn ~ 18200 13350
-NoConn ~ 18300 13350
-NoConn ~ 18000 13900
-NoConn ~ 18100 13900
-NoConn ~ 18200 13900
-NoConn ~ 18300 13900
+NoConn ~ 17900 13250
+NoConn ~ 18000 13250
+NoConn ~ 18100 13250
+NoConn ~ 18200 13250
+NoConn ~ 17900 13800
+NoConn ~ 18000 13800
+NoConn ~ 18100 13800
+NoConn ~ 18200 13800
 $Comp
 L power:GND #PWR0119
 U 1 1 63B30068
@@ -3203,14 +3203,6 @@ F 3 "~" H 12450 12650 50  0001 C CNN
 	1    12450 12650
 	-1   0    0    1   
 $EndComp
-NoConn ~ 21400 9900
-NoConn ~ 21500 9900
-NoConn ~ 21600 9900
-NoConn ~ 21700 9900
-NoConn ~ 21400 10450
-NoConn ~ 21500 10450
-NoConn ~ 21600 10450
-NoConn ~ 21700 10450
 $Comp
 L Connector:Conn_01x04_Female J44
 U 1 1 63F46695
@@ -3288,33 +3280,33 @@ R-RING1
 $Comp
 L Connector:Conn_01x04_Female J47
 U 1 1 63AC0C46
-P 18150 12650
-F 0 "J47" V 17996 12798 50  0000 L CNN
-F 1 "Raiser_Female" V 18087 12798 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18150 12650 50  0001 C CNN
-F 3 "~" H 18150 12650 50  0001 C CNN
-	1    18150 12650
+P 18050 12550
+F 0 "J47" V 17896 12698 50  0000 L CNN
+F 1 "Raiser_Female" V 17987 12698 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18050 12550 50  0001 C CNN
+F 3 "~" H 18050 12550 50  0001 C CNN
+	1    18050 12550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J48
 U 1 1 63AC0C4C
-P 18150 12800
-F 0 "J48" V 18212 12944 50  0000 L CNN
-F 1 "Raiser_Male" V 18303 12944 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18150 12800 50  0001 C CNN
-F 3 "~" H 18150 12800 50  0001 C CNN
-	1    18150 12800
+P 18050 12700
+F 0 "J48" V 18112 12844 50  0000 L CNN
+F 1 "Raiser_Male" V 18203 12844 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18050 12700 50  0001 C CNN
+F 3 "~" H 18050 12700 50  0001 C CNN
+	1    18050 12700
 	0    1    1    0   
 $EndComp
-NoConn ~ 17950 12450
-NoConn ~ 18050 12450
-NoConn ~ 18150 12450
-NoConn ~ 18250 12450
-NoConn ~ 17950 13000
-NoConn ~ 18050 13000
-NoConn ~ 18150 13000
-NoConn ~ 18250 13000
+NoConn ~ 17850 12350
+NoConn ~ 17950 12350
+NoConn ~ 18050 12350
+NoConn ~ 18150 12350
+NoConn ~ 17850 12900
+NoConn ~ 17950 12900
+NoConn ~ 18050 12900
+NoConn ~ 18150 12900
 $Comp
 L Connector:Conn_01x04_Male J24
 U 1 1 636DA3EC
@@ -4220,4 +4212,64 @@ Text GLabel 3750 9200 3    50   Input ~ 0
 K_4
 Text GLabel 20550 10400 3    50   Input ~ 0
 K_5
+$Comp
+L Connector:Conn_01x04_Female J51
+U 1 1 64043CBA
+P 18800 10900
+F 0 "J51" V 18646 11048 50  0000 L CNN
+F 1 "Raiser_Female" V 18737 11048 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18800 10900 50  0001 C CNN
+F 3 "~" H 18800 10900 50  0001 C CNN
+	1    18800 10900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J52
+U 1 1 64043CC0
+P 18800 11050
+F 0 "J52" V 18862 11194 50  0000 L CNN
+F 1 "Raiser_Male" V 18953 11194 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18800 11050 50  0001 C CNN
+F 3 "~" H 18800 11050 50  0001 C CNN
+	1    18800 11050
+	0    1    1    0   
+$EndComp
+NoConn ~ 18600 10700
+NoConn ~ 18700 10700
+NoConn ~ 18800 10700
+NoConn ~ 18900 10700
+NoConn ~ 18600 11250
+NoConn ~ 18700 11250
+NoConn ~ 18800 11250
+NoConn ~ 18900 11250
+$Comp
+L Connector:Conn_01x04_Female J49
+U 1 1 64043CCE
+P 18750 10000
+F 0 "J49" V 18596 10148 50  0000 L CNN
+F 1 "Raiser_Female" V 18687 10148 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 18750 10000 50  0001 C CNN
+F 3 "~" H 18750 10000 50  0001 C CNN
+	1    18750 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J50
+U 1 1 64043CD4
+P 18750 10150
+F 0 "J50" V 18812 10294 50  0000 L CNN
+F 1 "Raiser_Male" V 18903 10294 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 18750 10150 50  0001 C CNN
+F 3 "~" H 18750 10150 50  0001 C CNN
+	1    18750 10150
+	0    1    1    0   
+$EndComp
+NoConn ~ 18550 9800
+NoConn ~ 18650 9800
+NoConn ~ 18750 9800
+NoConn ~ 18850 9800
+NoConn ~ 18550 10350
+NoConn ~ 18650 10350
+NoConn ~ 18750 10350
+NoConn ~ 18850 10350
 $EndSCHEMATC

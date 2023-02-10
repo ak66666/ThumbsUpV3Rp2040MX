@@ -1749,12 +1749,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0117
 U 1 1 63E16CE5
-P 3850 10150
-F 0 "#PWR0117" H 3850 9900 50  0001 C CNN
-F 1 "GND" H 3855 9977 50  0000 C CNN
-F 2 "" H 3850 10150 50  0001 C CNN
-F 3 "" H 3850 10150 50  0001 C CNN
-	1    3850 10150
+P 3850 10400
+F 0 "#PWR0117" H 3850 10150 50  0001 C CNN
+F 1 "GND" H 3855 10227 50  0000 C CNN
+F 2 "" H 3850 10400 50  0001 C CNN
+F 3 "" H 3850 10400 50  0001 C CNN
+	1    3850 10400
 	1    0    0    -1  
 $EndComp
 Text GLabel 2750 6200 1    50   Input ~ 0
@@ -1770,30 +1770,30 @@ QSPI_SD0
 $Comp
 L TL1016AAF220QG:TL1016AAF220QG RUN1
 U 1 1 639D06EF
-P 4050 9350
-F 0 "RUN1" V 4450 9600 50  0000 L CNN
-F 1 "TL1016AAF220QG" V 4600 9600 50  0000 L CNN
-F 2 "TL1016AAF220QG:TL1016AAF220QG" H 4700 9450 50  0001 L CNN
-F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 4700 9350 50  0001 L CNN
-F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 4700 9250 50  0001 L CNN "Description"
-F 5 "1.35" H 4700 9150 50  0001 L CNN "Height"
-F 6 "E-Switch" H 4700 9050 50  0001 L CNN "Manufacturer_Name"
-F 7 "TL1016AAF220QG" H 4700 8950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "612-TL1016AAF220QG" H 4700 8850 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 4700 8750 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 4700 8650 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 4700 8550 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 4700 8450 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 4700 8350 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    4050 9350
+P 4050 9600
+F 0 "RUN1" V 4450 9850 50  0000 L CNN
+F 1 "TL1016AAF220QG" V 4600 9850 50  0000 L CNN
+F 2 "TL1016AAF220QG:TL1016AAF220QG" H 4700 9700 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/140/E_Switch_05112022_TL1016_Datasheet-2943618.pdf" H 4700 9600 50  0001 L CNN
+F 4 "Tactile Switches Tactile Switch SPST OFF-(ON) 50mA 12VDC" H 4700 9500 50  0001 L CNN "Description"
+F 5 "1.35" H 4700 9400 50  0001 L CNN "Height"
+F 6 "E-Switch" H 4700 9300 50  0001 L CNN "Manufacturer_Name"
+F 7 "TL1016AAF220QG" H 4700 9200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "612-TL1016AAF220QG" H 4700 9100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1016AAF220QG?qs=t7xnP681wgW5zrSpkWH91Q%3D%3D" H 4700 9000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4700 8900 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4700 8800 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 4700 8700 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 4700 8600 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    4050 9600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4050 9350 4150 9350
+	4050 9600 4150 9600
 Wire Wire Line
-	4200 9350 4200 10150
+	4200 9600 4200 10400
 Wire Wire Line
-	3750 10150 3850 10150
+	3750 10400 3850 10400
 $Comp
 L TL1016AAF220QG:TL1016AAF220QG BOOTSEL1
 U 1 1 63B7CD0C
@@ -1947,9 +1947,9 @@ Wire Wire Line
 	2350 2000 2450 2000
 Connection ~ 2350 2000
 Wire Wire Line
-	3750 10150 3750 9350
+	3750 10400 3750 9600
 Wire Wire Line
-	3750 9350 3950 9350
+	3750 9600 3950 9600
 Wire Wire Line
 	4300 14400 4300 14150
 Wire Wire Line
@@ -3181,7 +3181,6 @@ NoConn ~ 20550 9850
 NoConn ~ 20250 10400
 NoConn ~ 20350 10400
 NoConn ~ 20450 10400
-NoConn ~ 20550 10400
 $Comp
 L Connector:Conn_01x04_Female J42
 U 1 1 63F46681
@@ -3247,23 +3246,23 @@ $EndComp
 $Comp
 L power:GND #PWR0149
 U 1 1 641658E3
-P 5200 8100
-F 0 "#PWR0149" H 5200 7850 50  0001 C CNN
-F 1 "GND" H 5205 7927 50  0000 C CNN
-F 2 "" H 5200 8100 50  0001 C CNN
-F 3 "" H 5200 8100 50  0001 C CNN
-	1    5200 8100
+P 5500 8100
+F 0 "#PWR0149" H 5500 7850 50  0001 C CNN
+F 1 "GND" H 5505 7927 50  0000 C CNN
+F 2 "" H 5500 8100 50  0001 C CNN
+F 3 "" H 5500 8100 50  0001 C CNN
+	1    5500 8100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 8100 5200 8100
+	5300 8100 5500 8100
 Wire Wire Line
-	5000 8900 5200 8900
-Text GLabel 4750 8100 3    50   Input ~ 0
+	5300 8900 5500 8900
+Text GLabel 5050 8100 3    50   Input ~ 0
 L-TIP
-Text GLabel 5200 8100 2    50   Input ~ 0
+Text GLabel 5500 8100 2    50   Input ~ 0
 L-BASE
-Text GLabel 5200 8900 2    50   Input ~ 0
+Text GLabel 5500 8900 2    50   Input ~ 0
 L-RING1
 $Comp
 L power:GND #PWR0152
@@ -3444,36 +3443,36 @@ $EndComp
 $Comp
 L power:+5V #PWR0147
 U 1 1 63F119E5
-P 5000 8900
-F 0 "#PWR0147" H 5000 8750 50  0001 C CNN
-F 1 "+5V" H 5015 9073 50  0000 C CNN
-F 2 "" H 5000 8900 50  0001 C CNN
-F 3 "" H 5000 8900 50  0001 C CNN
-	1    5000 8900
+P 5300 8900
+F 0 "#PWR0147" H 5300 8750 50  0001 C CNN
+F 1 "+5V" H 5315 9073 50  0000 C CNN
+F 2 "" H 5300 8900 50  0001 C CNN
+F 3 "" H 5300 8900 50  0001 C CNN
+	1    5300 8900
 	-1   0    0    1   
 $EndComp
-Connection ~ 5000 8900
+Connection ~ 5300 8900
 Wire Wire Line
 	4250 8000 5200 8000
 $Comp
 L STX-3501-3N:STX-3501-3N J36
 U 1 1 63D573AD
-P 5000 8100
-F 0 "J36" V 5354 8228 50  0000 L CNN
-F 1 "STX-3501-3N" V 5445 8228 50  0000 L CNN
-F 2 "STX-3501-3N:STX35013N" H 5650 8200 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 5650 8100 50  0001 L CNN
-F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 5650 8000 50  0001 L CNN "Description"
-F 5 "5" H 5650 7900 50  0001 L CNN "Height"
-F 6 "Kycon" H 5650 7800 50  0001 L CNN "Manufacturer_Name"
-F 7 "STX-3501-3N" H 5650 7700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "806-STX-3501-3N" H 5650 7600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 5650 7500 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5650 7400 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5650 7300 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 5650 7200 50  0001 L CNN "Mouser Testing Part Number"
-F 13 "" H 5650 7100 50  0001 L CNN "Mouser Testing Price/Stock"
-	1    5000 8100
+P 5300 8100
+F 0 "J36" V 5654 8228 50  0000 L CNN
+F 1 "STX-3501-3N" V 5745 8228 50  0000 L CNN
+F 2 "STX-3501-3N:STX35013N" H 5950 8200 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/ae9d1df0991347f2f81145ba35ca04dc.pdf" H 5950 8100 50  0001 L CNN
+F 4 "Phone Connectors 3.5mm S LUGS STEREO 3P THRU HOLE" H 5950 8000 50  0001 L CNN "Description"
+F 5 "5" H 5950 7900 50  0001 L CNN "Height"
+F 6 "Kycon" H 5950 7800 50  0001 L CNN "Manufacturer_Name"
+F 7 "STX-3501-3N" H 5950 7700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "806-STX-3501-3N" H 5950 7600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Kycon/STX-3501-3N?qs=BBNwCsfFaznpJt4o1Jp%2FTg%3D%3D" H 5950 7500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5950 7400 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5950 7300 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 5950 7200 50  0001 L CNN "Mouser Testing Part Number"
+F 13 "" H 5950 7100 50  0001 L CNN "Mouser Testing Price/Stock"
+	1    5300 8100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3491,23 +3490,12 @@ Connection ~ 15450 8850
 $Comp
 L Device:R R4
 U 1 1 63C3C97D
-P 4650 8250
-F 0 "R4" H 4720 8296 50  0000 L CNN
-F 1 "5.1K" H 4720 8205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 8250 50  0001 C CNN
-F 3 "~" H 4650 8250 50  0001 C CNN
-	1    4650 8250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0150
-U 1 1 63C3E3CC
-P 4650 8400
-F 0 "#PWR0150" H 4650 8250 50  0001 C CNN
-F 1 "+3.3V" H 4665 8573 50  0000 C CNN
-F 2 "" H 4650 8400 50  0001 C CNN
-F 3 "" H 4650 8400 50  0001 C CNN
-	1    4650 8400
+P 4850 8250
+F 0 "R4" H 4920 8296 50  0000 L CNN
+F 1 "5.1K" H 4920 8205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4780 8250 50  0001 C CNN
+F 3 "~" H 4850 8250 50  0001 C CNN
+	1    4850 8250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3623,19 +3611,17 @@ Wire Wire Line
 Wire Wire Line
 	14050 10500 14050 9700
 Wire Wire Line
-	3650 9200 3650 9300
+	3650 9550 4150 9550
 Wire Wire Line
-	3650 9300 4150 9300
+	4150 9550 4150 9600
+Connection ~ 4150 9600
 Wire Wire Line
-	4150 9300 4150 9350
-Connection ~ 4150 9350
+	4150 9600 4200 9600
+Connection ~ 3850 10400
 Wire Wire Line
-	4150 9350 4200 9350
-Connection ~ 3850 10150
+	3850 10400 3950 10400
 Wire Wire Line
-	3850 10150 3950 10150
-Wire Wire Line
-	4050 10150 4200 10150
+	4050 10400 4200 10400
 Wire Wire Line
 	13950 9650 14400 9650
 Wire Wire Line
@@ -3664,11 +3650,6 @@ Text GLabel 2850 9200 3    50   Input ~ 0
 K_ESC
 Text GLabel 2750 9200 3    50   Input ~ 0
 K_Q
-Wire Wire Line
-	4250 8100 4650 8100
-Connection ~ 4650 8100
-Wire Wire Line
-	4650 8100 4900 8100
 Text GLabel 2650 9200 3    50   Input ~ 0
 K_W
 Text GLabel 2550 9200 3    50   Input ~ 0
@@ -3679,9 +3660,9 @@ Text GLabel 2250 8300 0    50   Input ~ 0
 K_G
 Text GLabel 2250 8200 0    50   Input ~ 0
 K_T
-Text GLabel 2250 8100 0    50   Input ~ 0
-K_F
 Text GLabel 2250 7900 0    50   Input ~ 0
+K_F
+Text GLabel 2250 8100 0    50   Input ~ 0
 K_R
 Text GLabel 2250 7400 0    50   Input ~ 0
 K_V
@@ -4205,4 +4186,38 @@ $EndComp
 Connection ~ 14500 15800
 Text GLabel 5600 15050 2    50   Input ~ 0
 K_WIN
+NoConn ~ 3450 9200
+NoConn ~ 3550 9200
+Text GLabel 4250 8200 2    50   Input ~ 0
+K_1
+Text GLabel 4250 7900 2    50   Input ~ 0
+K_2
+$Comp
+L power:+3.3V #PWR0150
+U 1 1 63C3E3CC
+P 4850 8400
+F 0 "#PWR0150" H 4850 8250 50  0001 C CNN
+F 1 "+3.3V" H 4865 8573 50  0000 C CNN
+F 2 "" H 4850 8400 50  0001 C CNN
+F 3 "" H 4850 8400 50  0001 C CNN
+	1    4850 8400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 8100 4850 8100
+Connection ~ 4850 8100
+Wire Wire Line
+	4850 8100 5200 8100
+Text GLabel 4250 7800 2    50   Input ~ 0
+K_3
+Text GLabel 4250 8300 2    50   Input ~ 0
+K_GRAVE
+Wire Wire Line
+	3650 9200 3650 9550
+Text GLabel 3850 9200 3    50   Input ~ 0
+K_5
+Text GLabel 3750 9200 3    50   Input ~ 0
+K_4
+Text GLabel 20550 10400 3    50   Input ~ 0
+K_5
 $EndSCHEMATC
